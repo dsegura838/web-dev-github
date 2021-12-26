@@ -1,0 +1,75 @@
+body {
+  background-color: rgb(244, 234, 255);
+  font-family: "Roboto", sans-serif;
+}
+header {
+  text-align: center;
+  padding: 32px;
+}
+h1 {
+  font-size: 52px;
+  color: rgb(88, 49, 196);
+}
+img {
+  width: 300px;
+}
+main {
+  background-color: rgb(122, 74, 218);
+  border-radius: 8px;
+  color: rgb(248, 241, 255);
+  margin: 32px auto;
+  padding: 32px;
+  width: 700px;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  margin: 14px 0;
+  padding-left: 10px;
+  border-left: 5px solid transparent;
+}
+
+main a {
+  text-decoration: none;
+  background-color: rgb(255, 237, 177);
+  border-radius: 4px;
+  color: rgb(36, 3, 102);
+  font-weight: 500;
+  padding: 2px 6px;
+}
+
+a:hover,
+a:active {
+  background-color: rgb(250, 201, 39);
+}
+
+footer {
+  text-align: center;
+  margin-bottom: 100px;
+}
+.highlight {
+  color: rgb(255, 237, 177);
+  border-color: rgb(247, 209, 85);
+}
+
+footer a {
+  background-color: rgb(250, 201, 39);
+  text-decoration: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  color: rgb(66, 51, 4);
+}
+
+footer a:hover,
+footer a:active {
+  background-color: rgb(250, 185, 10);
+}
+
+footer p {
+  color: rgb(131, 113, 149);
+  margin-top: 30px;
+}
