@@ -1,10 +1,15 @@
 const express = require("express");
+const colors = require("colors");
+
 //will allow us to have a dotenv file with modules in it
 const dotenv = require("dotenv").config();
 
 const { errorHandler } = require("./middleware/errorMiddleware");
+const connectDB = require("./config/db");
 //will get port from .env file, if port not found then will use 5000
 const port = process.env.PORT || 5000;
+
+connectDB();
 
 const app = express();
 
